@@ -16,3 +16,7 @@
     {% endif %}
 </body>
 </html>
+{% if result %}
+    <h2>Result: {{ result }}</h2>
+    <h3>Confidence: {{ prob }}%</h3>
+{% endif %}
